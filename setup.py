@@ -8,7 +8,7 @@ setup(
     package_dir={'': 'src'},
     entry_points={
         'console_scripts': [
-            'ClipDropSDXL = ClipDropSDXL.main:main'
+            'ClipDropSDXL = ClipDropSDXL:main'
         ]
     },
     install_requires=[
